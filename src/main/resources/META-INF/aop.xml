@@ -4,7 +4,7 @@
 		<include within="it.ccancellieri.aop..*" />
 	</weaver>
 	<aspects>
-		<aspect name="it.ccancellieri.aop.services.impl.LoggerAdviceImpl" />
-<!-- 		<aspect name="it.ccancellieri.aop.Runner" /> -->
+		<aspect name="it.ccancellieri.aop.services.aspects.LoggerAdviceImpl" />
+<!-- 		<aspect name="it.ccancellieri.aop.services.impl.MyRunner" /> -->
 	</aspects>
 </aspectj>
